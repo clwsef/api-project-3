@@ -22,3 +22,9 @@ const typeColor = {
   let getPokeData = () => {
     let id = Math.floor(Math.random() * 150) + 1
     const finalUrl = url + id
+    fetch(finalUrl)
+      .then((response) => response.json())
+      .then((data) => {
+        generateCard(data)
+      })
+  }
