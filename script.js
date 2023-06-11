@@ -21,3 +21,4 @@ const typeColor = {
   const btn = document.getElementById("btn")
   let getPokeData = () => {
     let id = Math.floor(Math.random() * 150) + 1
+    const finalUrl = url + id
