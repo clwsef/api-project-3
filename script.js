@@ -80,3 +80,4 @@ const typeColor = {
     });
   };
   btn.addEventListener("click", getPokeData)
+  window.addEventListener("load", getPokeData)
