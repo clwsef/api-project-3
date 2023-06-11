@@ -79,3 +79,4 @@ const typeColor = {
       typeColor.style.backgroundColor = color
     });
   };
+  btn.addEventListener("click", getPokeData)
